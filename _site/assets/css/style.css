@@ -20,7 +20,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
   margin-left: 20px;
 }
 .blog-title{
-  color: #385A30;
+  color: #83ce2c;
   font-family: "Lato";
   font-variant: small-caps;
 }
@@ -83,7 +83,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 }
 .carousel-inner{
   width:100%;
-  max-height: 600px !important;
+  max-height: 1400px !important;
 }
 .post-sidebar{
     margin-top: 15px;
@@ -226,7 +226,7 @@ address {
 * ==========================================================================
 */
 .active{
-  background:#74B9B9 !important;
+  background:#83ce2c !important;
   color: white;
 }
 .navbar {
@@ -371,15 +371,25 @@ p.blog-text{
 }
 
 .office-logo {
-  width: 100px;
+  width: 60px;
 }
 
 @media (max-width: 768px){ 
     .office-logo{
-      height: 100px;
       width: 60px;
   }
 }
+
+.slogan {
+  font-size: larger;
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    font-size: medium;
+  }
+}
+
 
 /*
 * ==========================================================================
