@@ -867,7 +867,7 @@ footer h3 {
   justify-content: space-around;
   text-align: start;
   align-content: center;
-  min-height: 35rem;
+  min-height: 40rem;
 }
 
 @media (max-width: 768px) {
@@ -887,8 +887,70 @@ footer h3 {
 
 .page-container {
   border: white;
+  margin-top: 106px;
 }
 
+
+.top-slide-container {
+}
+
+
+.team-content-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: start;
+  align-content: flex-start;
+  min-height: 40rem;
+  max-width: 50rem;
+
+  margin-top: 5rem;
+}
+
+.team-page {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-content-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: start;
+  align-content: flex-start;
+  min-height: 40rem;
+  max-width: 50rem;
+
+  margin-top: 5rem;
+}
+
+.wx-qrcode {
+  width: 30%;
+  margin: 1rem;
+}
+
+@media (max-width: 768px)  {
+  .wx-qrcode {
+    width: 20%;
+    margin: 1rem;
+  }
+}
+
+.right-menu {
+  justify-content: flex-end;
+}
 
 
 
