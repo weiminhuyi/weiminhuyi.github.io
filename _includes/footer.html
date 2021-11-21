@@ -2,55 +2,41 @@
 <footer> 
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
-        <h3><i class="fa fa-map-marker"></i> Contact:</h3>
+
+      <div class="col-md-5">
+
+        <div class="logo_slogan mt-4">
+          <a class="navbar-brand" href="#"><img class="office-logo" src="../assets/img/logo.png" alt="Office"></a>
+          <div class="footer-company-name text-white">
+          <span>深圳市卫民护益咨询服务有限公司</span>
+          </div>
+        </div>
+
+        <p class="text-white mt-3">专业为客户维护保险权益，解决不公正拒赔少赔理赔纠纷</p>
+  
+      </div>
+
+     
+    
+      <div class="col-md-3 mt-4">
+        <p><a href="/index.html"> 首页</a></p>
+        <p><a href="/about.html"> 公司介绍</a></p>
+        <p><a href="/team.html"> 团队介绍</a></p> 
+        <p><a href="/contact.html"> 联系我们</a></p>
+      </div>
+     
+      <div class="col-md-3 mt-4">
+        <h3><i class="fa fa-map-marker"></i> 联系我们:</h3>
         <p class="footer-contact">
-          {{ site.company_name }} <br>
-          Phone: {{ site.telephone_number }} <br>
-          Fax: {{ site.fax_number }} <br>
-          Email: {{ site.company_email }}<br>
+          地  址: {{ site.data.sitetext.footer.contact.address }} <br>
+          电  话: {{ site.data.sitetext.footer.contact.tel }} <br>
+          电子邮箱: {{ site.data.sitetext.footer.contact.email }}<br>
         </p>
       </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-external-link"></i> Links</h3>
-        <p><a href="/about"> About ( Who we are )</a></p>
-        <p><a href="/about"> Services ( What we do )</a></p>
-        <p><a href="/contact"> Contact ( Feel free to contact )</a></p>
-        <p><a href="/blog"> Blog ( Write to us )</a></p>
-        <p><a href="/team"> Team ( Meet the Team )</a></p> 
-      </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-heart"></i> Socialize</h3>
-        <div id="social-icons">
-          {% if site.googleplus_link %}
-            <a href="{{ site.googleplus_link }}" class="btn-group google-plus">
-              <i class="fa fa-google-plus"></i>
-            </a>
-          {% endif %}
-
-          {% if site.linkedin_link %}
-            <a href="{{ site.linkedin_link }}" class="btn-group linkedin">
-              <i class="fa fa-linkedin-square"></i>
-            </a>
-          {% endif %}
-
-          {% if site.facebook_link %}
-            <a href="{{ site.twitter_link }}" class="btn-group twitter">
-              <i class="fa fa-twitter"></i>
-            </a>
-          {% endif %}
-
-          {% if site.facebook_link %}
-            <a href="{{ site.facebook_link }}" class="btn-group facebook">
-              <i class="fa fa-facebook"></i>
-            </a>
-          {% endif %}
-        </div>
-      </div>    
     </div>
   </div>
 
   <div class="copyright text center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">Your Website Link</a>. <br>Theme ported by <a href="https://melvinchng.github.io/" target="_blank">Melvin Ch'ng</a></p>
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">深圳市卫民护益咨询服务有限公司</a>.
   </div>
 </footer>
