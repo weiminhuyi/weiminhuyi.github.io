@@ -792,7 +792,7 @@ footer h3 {
 .process-step-item-bottom-text {
   width: 200px;
   height: 100px;
-  text-align: center;
+  text-align: left;
   
 }
 
@@ -911,16 +911,36 @@ footer h3 {
 }
 
 .case-card {
-  width: 35rem;
-  height: 14rem;
+  width: 50rem;
+  height: 17rem;
   padding: auto;
+}
+
+@media (max-width: 768px) {
+  .case-card {
+    width: 50rem;
+    height: 25rem;
+    padding: auto;
+  }
 }
 
 .case-card-content {
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: center;
   text-align: left;
+}
+
+
+@media (max-width: 768px) {
+  .case-card-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
 }
 
 @media (min-width: 768px) {
@@ -955,7 +975,7 @@ footer h3 {
   justify-content: space-around;
   text-align: start;
   align-content: center;
-  min-height: 40rem;
+  min-height: 25rem;
 }
 
 @media (max-width: 768px) {
@@ -1144,6 +1164,165 @@ footer h3 {
   
  }
 
+ .process-one {
+  background-image: url('../img/process/process_icon_1.png');
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center;
+  margin: 4px;
+}
+
+.process-two {
+  background-image: url('../img/process/process_icon_2.png');
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center;
+  margin: 4px;
+}
+
+.process-three {
+  background-image: url('../img/process/process_icon_3.png');
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center;
+  margin: 4px;
+}
+
+.process-four {
+  background-image: url('../img/process/process_icon_4.png');
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: center;
+  margin: 4px;
+}
+
+.case-pic-one {
+  background-image: url('../img/cases/case-pic-1.png');
+  width: 700px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 4px;
+}
+
+.case-pic-two {
+  background-image: url('../img/cases/case-pic-2.png');
+  width: 700px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 4px;
+}
+
+.case-pic-three {
+  background-image: url('../img/cases/case-pic-3.png');
+  width: 700px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 4px;
+}
+
+@media (max-width: 768px) {
+  
+.case-pic-one {
+  background-image: url('../img/cases/case-pic-1.png');
+  width: 280px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 4px;
+}
+
+.case-pic-two {
+  background-image: url('../img/cases/case-pic-2.png');
+  width: 280px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 4px;
+}
+
+.case-pic-three {
+  background-image: url('../img/cases/case-pic-3.png');
+  width: 280px;
+  height: 180px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 4px;
+}
+}
+
+
+.case-text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+.team-pic {
+  background-image: url('../img/team/team-pic.png');
+  width: 50rem;
+  height: 38rem;
+  background-repeat: no-repeat;
+  background-size: 110% 110%;
+  background-position: center;
+  margin: 4px;
+}
+
+@media (max-width: 768px) {
+  .team-pic {
+    background-image: url('../img/team/team-pic.png');
+    width: 20rem;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    background-position: center;
+    margin: 4px;
+  }
+}
+
+
+.about-pic {
+  background-image: url('../img/about/about-pic.png');
+  width: 50rem;
+  height: 38rem;
+  background-repeat: no-repeat;
+  background-size: 110% 110%;
+  background-position: center;
+  margin: 4px;
+}
+
+.about-pic-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .about-pic {
+    background-image: url('../img/about/about-pic.png');
+    width: 20rem;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    background-position: center;
+    margin: 4px;
+  }
+}
 
 
 

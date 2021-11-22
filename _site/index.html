@@ -28,14 +28,14 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm p-3 mb-5 bg-body">
   <div class="container-fluid nav-bar-container">
     <div class="logo_slogan">
-    <a class="navbar-brand" href="/index.html"><img class="office-logo" src="../assets/img/logo.png" alt="Office"></a>
-    <div class="slogan">
-      <span>卫民护益--</span>
-      <span>拒赔少赔 卫您权益</span>
+      <a class="navbar-brand" href="/index.html"><img class="office-logo" src="../assets/img/logo.png" alt="Office"></a>
+      <div class="slogan">
+        <span>卫民护益--</span>
+        <span>拒赔少赔 卫您权益</span>
+      </div>
     </div>
-    </div>
-    
-  
+
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
           <a class="nav-link menu-item" href="/index.html">首页</a>
         </li>
         <li class="nav-item">
-         
+
           <a class="nav-link menu-item" href="/about.html">公司介绍</a>
         </li>
         <li class="nav-item">
@@ -57,21 +57,26 @@
         <li class="nav-item">
           <a class="nav-link menu-item" href="/contact.html">联系我们</a>
         </li>
-        
+
       </ul>
-     
+
     </div>
   </div>
 </nav>
 <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
 <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="../js/wow.min.js"></script>
 
 
 <body class="page-container">
     <!-- Begin #carousel-section -->
 
-    <div id="carouselTopPics" class="carousel slide top-slide-container" data-bs-ride="carousel">
+    <div id="carouselTopPics" class="carousel slide top-slide-container" data-bs-ride="carousel" data-pause="false">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselTopPics" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselTopPics" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselTopPics" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
 
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -127,9 +132,10 @@
             <div class="container process-step-container">
 
                 <div class="process-step-item">
-                    <div class="process-step-item-top-label display-6 shadow p-3 mb-5 rounded"
+                    <div class="process-step-item-top-label shadow p-3 mb-5 rounded"
                         style="background-color: #ed7d31">
-                        <div>案件分析</div>
+                        <div class="process-one"></div>
+                        <div class="fs-2">案件分析</div>
                     </div>
                     <div class="process-step-item-bottom-text">
                         <h4>专家为您解析理赔结论，如不合理，为您争取</h4>
@@ -144,9 +150,10 @@
 
 
                 <div class="process-step-item">
-                    <div class="process-step-item-top-label display-6 shadow p-3 mb-5 rounded"
+                    <div class="process-step-item-top-label shadow p-3 mb-5 rounded"
                         style="background-color: #a5a5a5">
-                        <div>调查取证</div>
+                        <div class="process-two"></div>
+                        <div class="fs-2">调查取证</div>
                     </div>
                     <div class="process-step-item-bottom-text">
                         <h4>调查团队深入排查拒赔少赔的原因，获取相关证据</h4>
@@ -158,9 +165,10 @@
                 </div>
 
                 <div class="process-step-item">
-                    <div class="process-step-item-top-label display-6 shadow p-3 mb-5 rounded"
+                    <div class="process-step-item-top-label shadow p-3 mb-5 rounded"
                         style="background-color: #bf9000">
-                        <div>运作申诉</div>
+                        <div class="process-three"></div>
+                        <div class="fs-2">运作申诉</div>
                     </div>
                     <div class="process-step-item-bottom-text">
                         <h4>为您运作申诉事宜，或聘请公司合作的行业顶尖律师上诉</h4>
@@ -172,9 +180,10 @@
                 </div>
 
                 <div class="process-step-item">
-                    <div class="process-step-item-top-label display-6 shadow p-3 mb-5 rounded"
+                    <div class="process-step-item-top-label shadow p-3 mb-5 rounded"
                         style="background-color: #4472c4">
-                        <div>追踪结案</div>
+                        <div class="process-four"></div>
+                        <div class="fs-2">追踪结案</div>
                     </div>
                     <div class="process-step-item-bottom-text">
                         <h4>达成成果，追踪保险公司履约、保险金到账</h4>
@@ -213,13 +222,14 @@
 
                                 <div class="card-body case-card-content">
 
-                                    <figure class="text-start">
+                                    <div class="case-pic-one"></div>
+                                    <figure class="text-start case-text">
                                         <blockquote class="blockquote">
-                                            <p class="fs-5 text-body">
+                                            <p class="fs-6 text-body">
                                                 葛女士投保重大疾病险保额35万，因肺癌出险，保险公司以投保前体检未告知拒赔，经我司调查取证发现拒赔理由不成立，为王女士挽回理赔款35万。</p>
                                         </blockquote>
                                         <figcaption class="blockquote-footer">
-                                            <cite title="Source Title">案例一</cite>
+                                            <cite title="Source Title">@案例一</cite>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -233,14 +243,14 @@
                             <div class="card case-card">
 
                                 <div class="card-body case-card-content">
-
-                                    <figure class="text-start">
+                                    <div class="case-pic-two"></div>
+                                    <figure class="text-start case-text">
                                         <blockquote class="blockquote">
-                                            <p class="fs-5 text-body">
+                                            <p class="fs-6 text-body">
                                                 洪先生投保意外险保额80万，不慎高坠身故，保险公司以非意外为由拒赔，经我司调查取证发现符合意外情形，为受益人挽回理赔款80万。</p>
                                         </blockquote>
                                         <figcaption class="blockquote-footer">
-                                            <cite title="Source Title">案例二</cite>
+                                            <cite title="Source Title">@案例二</cite>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -252,17 +262,16 @@
                         <div class="container case-card-container ">
 
                             <div class="card case-card">
-
                                 <div class="card-body case-card-content">
-
-                                    <figure class="text-start">
+                                    <div class="case-pic-three"></div>
+                                    <figure class="text-start case-text">
                                         <blockquote class="blockquote">
-                                            <p class="fs-5 text-body">
+                                            <p class="fs-6 text-body">
                                                 殷女士投保医疗险保额100万，因心肌梗死住院花费26万，保险公司以投保前既往症为由拒赔，我司请行业顶尖律师诉讼并胜诉，为客户挽回理赔款23万.
                                             </p>
                                         </blockquote>
                                         <figcaption class="blockquote-footer">
-                                            <cite title="Source Title">案例三</cite>
+                                            <cite title="Source Title">@案例三</cite>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -326,8 +335,8 @@
       <div class="col-md-3 mt-4">
         <span class="fs-5 text-white"><i class="fa fa-map-marker"></i> 联系我们:</span>
         <p class="footer-contact">
-          地 址: 深圳市 <br>
-          电 话: 130 4343 2353 <br>
+          <br>
+          联系电话: 130 4343 2353 <br>
           电子邮箱: hjyang06@126.com<br>
         </p>
         
@@ -354,3 +363,4 @@
 </div>
 
 </html>
+
