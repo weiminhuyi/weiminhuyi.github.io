@@ -90,7 +90,7 @@
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
-    email: "hjyang06@126.com"
+    email: "zhangjianfanwmhy@163.com"
     email-validation: "Please enter your email address."
     phone: "Phone Number"
     phone-validation: "Please enter your phone number."
@@ -101,8 +101,8 @@
 
   footer:
     contact:
-      email: "hjyang06@126.com"
-      tel: "130 4343 2353"
+      email: "zhangjianfanwmhy@163.com"
+      tel: "130 3289 0368"
       address: "深圳市"
     legal: "Privacy Policy"
     social:
